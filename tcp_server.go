@@ -7,6 +7,8 @@ import (
 	"sync"
 
 	"github.com/Johannestj/is105sem03/mycrypt"
+	"github.com/naausicaa/minyr/yr"
+	//"github.com/Johannestj/minyr/yr"
 )
 
 func main() {
@@ -46,8 +48,15 @@ func main() {
 						kryptertMelding := mycrypt.Krypter([]rune("pong"), mycrypt.ALF_SEM03, 4)
 						log.Println("Kryptert melding: ", string(kryptertMelding))
 						_, err = c.Write([]byte(string(kryptertMelding)))
+					case "Kjevik;SN39040;18.03.2022 01:50;6":
+						newMsg := yr.ConvertCelsiusToFahr(msg)
+						kryptertMelding := mycrypt.Krypter([]rune((newMsg)), mycrypt.ALF_SEM03, 4)
+						log.Println("Kryptert melding: ", string(kryptertMelding))
+						_, err = c.Write([]byte(string(kryptertMelding)))
 					default:
-						_, err = c.Write(buf[:n])
+						kryptertMelding := mycrypt.Krypter([]rune(msg), mycrypt.ALF_SEM03, 4)
+						log.Println("Kryptert melding: ", string(kryptertMelding))
+						_, err = c.Write([]byte(string(kryptertMelding)))
 					}
 					if err != nil {
 						if err != io.EOF {

@@ -1,2 +1,6 @@
 github.com/Johannestj/is105sem03 v0.0.0-20230417112807-d15660c2571b h1:xqqduRczWXKMuTZ9lxysfY68cIupw56gxeaGkRDU6/4=
 github.com/Johannestj/is105sem03 v0.0.0-20230417112807-d15660c2571b/go.mod h1:ujqZrm6ZTR2/q8HTXKxPQOM7C6pIDp0wsEPQ3tH/gdA=
+github.com/naausicaa/funtemps v0.0.0-20230309174254-05ae0dc724aa h1:bk5bwaxKtvsGsa7rB9rvc89F+f9SQjYppT9de1LvL10=
+github.com/naausicaa/funtemps v0.0.0-20230309174254-05ae0dc724aa/go.mod h1:zzgvGjBzI6ksCNXggeKUnNeRBDfQtqQuByfBp74CLzE=
+github.com/naausicaa/minyr v0.0.0-20230329105711-e11a126e2b62 h1:Vhnd8sd8zrVUKhHz6oKL+J71QDPcNtTVaijlqiBH0Rw=
+github.com/naausicaa/minyr v0.0.0-20230329105711-e11a126e2b62/go.mod h1:+rDHq8qoOpRwr+R8KaFhH2IXpRRe65nuPS7GnujG2bQ=
